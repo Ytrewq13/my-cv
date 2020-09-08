@@ -16,7 +16,7 @@ efficient code through various optimisations.
 Education
 =========
 
-University of Nottingham -09 -- current
+University of Nottingham 2018-09 -- current
 ---------------------------------------
 
 Degree: MSci Computer Science First year grade: First\
@@ -37,7 +37,7 @@ Second year grade: First
 -   Can provide a comprehensive list of modules upon request (including
     grades)
 
-NEW College Pontefract -09 -- 2018-07
+NEW College Pontefract 2016-09 -- 2018-07
 -------------------------------------
 
 ### A Levels
@@ -45,7 +45,7 @@ NEW College Pontefract -09 -- 2018-07
 Achieved 3 A Levels, with grades A\*AA (can provide details upon
 request).
 
-Kettlethorpe High School -09 -- 2016-07
+Kettlethorpe High School 2011-09 -- 2016-07
 ---------------------------------------
 
 Achieved 10 GCSEs, including 5 A\* grades and 5 A grades (can provide
@@ -59,20 +59,20 @@ Personal Programming Projects
 
 **Project description**
 
--   Mandelbrot generator in C `https://github.com/Ytrewq13/mandelbrotc.git`
+-   Mandelbrot generator in C <https://github.com/Ytrewq13/mandelbrotc.git>
 
--   Heapsort in C `https://github.com/Ytrewq13/heapsort.git`
+-   Heapsort in C <https://github.com/Ytrewq13/heapsort.git>
 
 -   Rubik's cube timer in Java (A Level Coursework)
-    `https://github.com/Ytrewq13/cubetimerapplicationjavafx.git`
+    <https://github.com/Ytrewq13/cubetimerapplicationjavafx.git>
 
--   Maze generator and solver in Java and Javascript `https://github.com/Ytrewq13/mazemaker.git`
+-   Maze generator and solver in Java and Javascript <https://github.com/Ytrewq13/mazemaker.git>
 
 -   Bouncing ball physics simulation in Javascript
-    `https://github.com/Ytrewq13/javascript-bouncing-balls.git`
+    <https://github.com/Ytrewq13/javascript-bouncing-balls.git>
 
 -   Genetic algorithm example program in Python and Javascript
-    `https://github.com/Ytrewq13/wordevolution.git`
+    <https://github.com/Ytrewq13/wordevolution.git>
 
 Programming Languages
 =====================
