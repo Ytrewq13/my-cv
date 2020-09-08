@@ -4,7 +4,7 @@ author:
 title: '`https://github.com/Ytrewq13`'
 ---
 
-Tel: +447478190577 Emails: sam.everythingcomputers\@gmail.com\
+Tel: +447478190577 Emails: sam.everythingcomputers\@gmail.com
 
 psysrw\@nottingham.ac.uk
 
@@ -57,22 +57,22 @@ Experiences
 Personal Programming Projects
 -----------------------------
 
-**Project description** `https://github.com/Ytrewq13/...`
+**Project description**
 
--   Mandelbrot generator in C `mandelbrotc.git`
+-   Mandelbrot generator in C `https://github.com/Ytrewq13/mandelbrotc.git`
 
--   Heapsort in C `heapsort.git`
+-   Heapsort in C `https://github.com/Ytrewq13/heapsort.git`
 
 -   Rubik's cube timer in Java (A Level Coursework)
-    `cubetimerapplicationjavafx.git`
+    `https://github.com/Ytrewq13/cubetimerapplicationjavafx.git`
 
--   Maze generator and solver in Java and Javascript `mazemaker.git`
+-   Maze generator and solver in Java and Javascript `https://github.com/Ytrewq13/mazemaker.git`
 
 -   Bouncing ball physics simulation in Javascript
-    `javascript-bouncing-balls.git`
+    `https://github.com/Ytrewq13/javascript-bouncing-balls.git`
 
 -   Genetic algorithm example program in Python and Javascript
-    `wordevolution.git`
+    `https://github.com/Ytrewq13/wordevolution.git`
 
 Programming Languages
 =====================
