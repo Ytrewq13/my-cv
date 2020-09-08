@@ -1,9 +1,3 @@
----
-author:
-- Sam Robert Whitehead
-title: '`https://github.com/Ytrewq13`'
----
-
 Tel: +447478190577 Emails: sam.everythingcomputers\@gmail.com
 
 psysrw\@nottingham.ac.uk
@@ -56,8 +50,6 @@ Experiences
 
 Personal Programming Projects
 -----------------------------
-
-**Project description**
 
 -   Mandelbrot generator in C <https://github.com/Ytrewq13/mandelbrotc.git>
 
