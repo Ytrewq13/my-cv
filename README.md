@@ -1,8 +1,9 @@
 Sam Robert Whitehead
 ====================
 
-Tel: +447478190577 Emails: sam.everythingcomputers\@gmail.com
+Tel: +447478190577
 
+Emails: sam.everythingcomputers\@gmail.com
 psysrw\@nottingham.ac.uk
 
 Currently in my third year studying Computer Science at the University
