@@ -2,7 +2,7 @@
 
 \usepackage{titlesec}
 \usepackage{titling}
-\usepackage[margin=0.88in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{multicol}
 \usepackage[inline]{enumitem}
 \usepackage{parskip}
@@ -10,7 +10,14 @@
 
 \setlist{nosep}
 
-\renewcommand{\maketitle}{\begin{center}\huge\bfseries\theauthor\end{center}\begin{center}\Large\thetitle\end{center}}
+\renewcommand{\maketitle}{
+    {
+    \centering
+        \huge\bfseries\theauthor{}\\
+        \Large\thetitle{}\par
+    }
+}
+
 
     \titleformat{\section}
     {\bfseries\Large}
@@ -30,93 +37,114 @@
     {0em}
     {}
 
-    \begin{document}
-    \title{\texttt{https://github.com/Ytrewq13}}
-    \author{Sam Robert Whitehead}
+\begin{document}
+\title{\texttt{https://github.com/Ytrewq13}}
+\author{Sam Robert Whitehead}
 
-    \maketitle
+\maketitle
 
-    \pagestyle{empty}
+\pagestyle{empty}
 
-    Tel: +447478190577
-    \hfill
-    Emails: sam.everythingcomputers@gmail.com\\
-    {\raggedleft psysrw@nottingham.ac.uk\par}
-    \vspace{1mm}
-    Currently in my third year studying Computer Science at the University of
-    Nottingham. Interested in all aspects of software development, with
-    particular interest in system administration and writing performant,
-    efficient code through various optimisations.
-    \section{Education}
+Tel: +447478190577
+\hfill
+Emails: sam.everythingcomputers@gmail.com\\
+{\raggedleft psysrw@nottingham.ac.uk\par}
+\vspace{1mm}
+Currently in my third year studying Computer Science at the University of
+Nottingham. Interested in all aspects of software development, with
+particular interest in system administration and writing performant,
+efficient code through various optimisations.
+\section{Education}
     \subsection{University of Nottingham
-    \hfill 2018-09 -- current}
-    Degree: MSci Computer Science
-    \hfill
-    First year grade: First\\
-    {\raggedleft Second year grade: First\par}
-    \begin{itemize}
-        \item Experience implementing various algorithms and data structures in
-            C.
-        \item Modules so far include:
-            \begin{itemize}
-                \item Object Oriented Programming
-                \item Functional Programming (Haskell) - Fundamentals \&
-                    Advanced Techniques
-                \item Software Engineering Group Project
-            \end{itemize}
-        \item Can provide a comprehensive list of modules upon request
-            (including grades)
-    \end{itemize}
+        \hfill 2018-09 -- current}
+        Degree: MSci Computer Science
+        \hfill
+        First year grade: First\\
+        {\raggedleft Second year grade: First\par}
+        \begin{itemize}
+            \item Experience implementing various algorithms and data structures in
+                C.
+            \item Modules so far include:
+                \begin{itemize}
+                    \item Object Oriented Programming
+                    \item Functional Programming (Haskell) - Fundamentals \&
+                        Advanced Techniques
+                    \item Software Engineering Group Project
+                    \item Compiler design and implementation
+                \end{itemize}
+            \item Can provide a comprehensive list of modules upon request
+                (including grades)
+        \end{itemize}
     \subsection{NEW College Pontefract
-    \hfill 2016-09 -- 2018-07}
-    \subsubsection{A Levels}
-    Achieved 3 A Levels, with grades A*AA (can provide details upon request).
-    \begin{comment}
-        \begin{tabular}{cccc}
-            \textbf{Subject} & \textbf{Exam Board} & \textbf{AS/A2} &
-            \textbf{Grade}\\
-            Mathematics & AQA & A2 & A* \\
-            Further Mathematics & AQA & A2 & A \\
-            Computer Science & OCR & A2 & A \\
-            Physics & AQA & AS & A
-        \end{tabular}
-    \end{comment}
+        \hfill 2016-09 -- 2018-07}
+        \subsubsection{A Levels}
+            Achieved 3 A Levels, with grades A*AA (can provide details upon request).
+            \begin{comment}
+                \begin{tabular}{cccc}
+                    \textbf{Subject} & \textbf{Exam Board} & \textbf{AS/A2} &
+                    \textbf{Grade}\\
+                    Mathematics & AQA & A2 & A* \\
+                    Further Mathematics & AQA & A2 & A \\
+                    Computer Science & OCR & A2 & A \\
+                    Physics & AQA & AS & A
+                \end{tabular}
+            \end{comment}
     \subsection{Kettlethorpe High School
-    \hfill 2011-09 -- 2016-07}
-    Achieved 10 GCSEs, including 5 A* grades and 5 A grades (can provide details
-    upon request).
-    \section{Experiences}
+        \hfill 2011-09 -- 2016-07}
+        Achieved 10 GCSEs, including 5 A* grades and 5 A grades (can provide details
+        upon request).
+\section{Experiences}
+    \subsection{Teamwork experience}
+        Student Exec Treasurer at NEW College Pontefract
+        \hfill 2017-09 -- 2018-07\par
+        \begin{itemize}
+            \item Tracked Student Exec funding for the year
+            \item Allocated budget to Exec projects
+            \item Helped select the next year's Exec team
+        \end{itemize}
     \subsection{Personal Programming Projects}
-    \hspace{1em} \textbf{Project description}
-    \hfill
-    \texttt{https://github.com/Ytrewq13/...}
-    \begin{itemize}
-        \item Mandelbrot generator in C
-            \hfill
-            \texttt{mandelbrotc.git}
-        \item Heapsort in C
-            \hfill
-            \texttt{heapsort.git}
-        \item Rubik's cube timer in Java
-            \hfill
-            (A Level Coursework)
-            \hfill
-            \texttt{cubetimerapplicationjavafx.git}
-        \item Maze generator and solver in Java and Javascript
-            \hfill
-            \texttt{mazemaker.git}
-        \item Bouncing ball physics simulation in Javascript
-            \hfill
-            \texttt{javascript-bouncing-balls.git}
-        \item Genetic algorithm example program in Python and Javascript
-            \hfill
-            \texttt{wordevolution.git}
-    \end{itemize}
-    \section{Programming Languages}
-    \subsection{Very comfortable with}
-    C, Java, Python, Javascript, Bash, \LaTeX
-    \subsection{Working familiarity}
-    C++, R (ggplot2), PHP, Lua, C\#, Vimscript, Groff (MS macros, EQN, REF),
-    AWK, SED, Perl, Haskell, SQL
-
+        \hspace{1em} \textbf{Project description}
+        \hfill
+        \texttt{https://github.com/Ytrewq13/...}
+        \begin{itemize}
+            \item Mandelbrot generator in C
+                \hfill
+                \texttt{mandelbrotc.git}
+            \item Heapsort in C
+                \hfill
+                \texttt{heapsort.git}
+            \item Rubik's cube timer in Java
+                \hfill
+                (A Level Coursework)
+                \hfill
+                \texttt{cubetimerapplicationjavafx.git}
+            \item Maze generator and solver in Java and Javascript
+                \hfill
+                \texttt{mazemaker.git}
+            \item Bouncing ball physics simulation in Javascript
+                \hfill
+                \texttt{javascript-bouncing-balls.git}
+            \item Genetic algorithm example program in Python and Javascript
+                \hfill
+                \texttt{wordevolution.git}
+        \end{itemize}
+\section{Programming Languages}
+    C,
+    Bash,
+    Haskell,
+    Python,
+    \LaTeX,
+    R (ggplot2),
+    AWK,
+    SED,
+    Groff (MS macros, EQN, REF),
+    Vimscript,
+    C++,
+    Perl,
+    SQL,
+    Javascript,
+    Java,
+    Lua,
+    PHP,
+    C\#,\ldots
 \end{document}
