@@ -11,14 +11,11 @@
 \usepackage{xeCJK}
 \usepackage{comment}
 
+\includecomment{xen}
+\excludecomment{xcn}
+
 \input{cv_prelude}
 
 \begin{document}
-\includecomment{xen}
-\excludecomment{xcn}
-\include{master} % English version
-
-\excludecomment{xen}
-\includecomment{xcn}
-\include{master} % Chinese version
+\input{master}
 \end{document}

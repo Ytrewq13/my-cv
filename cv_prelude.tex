@@ -1,0 +1,31 @@
+% !TEX program = xelatex
+\setCJKmainfont{HanaMinA}
+
+\setlist{nosep}
+
+\renewcommand{\maketitle}{
+    {
+    \centering
+        \huge\bfseries\theauthor{}\\
+        \Large\thetitle{}\par
+    }
+}
+
+\titleformat{\section}
+{\bfseries\Large}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries}
+{}
+{0em}
+{}
+
