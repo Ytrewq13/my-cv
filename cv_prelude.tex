@@ -1,7 +1,45 @@
-% !TEX program = xelatex
-\setCJKmainfont{HanaMinA}
+%! TEX program = xelatex
+%! TEX root = ./cv.tex
+\documentclass[10pt]{extarticle}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+\usepackage[inline]{enumitem}
+\usepackage{parskip}
+\usepackage{verbatim}
+\usepackage[fallback]{xeCJK}
+\usepackage{comment}
+\usepackage{xcolor}
+
+%\definecolor{examplewhite}{RGB}{255, 255, 255}
+\definecolor{emphcol}{RGB}{192, 64, 128}
+\definecolor{linkcol}{RGB}{128, 0, 224}
+
+% Programming languages colors
+%#0D98BA - Base color
+\definecolor{lang1}{HTML}{0D98BA}
+\definecolor{lang2}{HTML}{0A758F}
+\definecolor{lang3}{HTML}{075264}
+\definecolor{lang4}{HTML}{042F39}
+\definecolor{lang5}{HTML}{000000}
+
+\usepackage[colorlinks,
+    allcolors=linkcol,
+    unicode=true,
+    bookmarks=false % This fixes the "Token not allowed in PDF string" warning
+]{hyperref}
+
+%\setCJKmainfont{HanaMinA} % Kept incase I need to go back to the old font
+\setCJKmainfont{Noto Serif CJK SC} % Noto Serif CJK has bold typeface - HanaMinA doesn't
+%\setCJKfallbackfamilyfont{rm}{HanaMinB} % Not needed?
+\setCJKmonofont[]{HanaMinA}
 
 \setlist{nosep}
+
+\setlength{\parskip}{0em}
+\setlength{\parindent}{0em}
 
 \renewcommand{\maketitle}{
     {
@@ -29,3 +67,15 @@
 {0em}
 {}
 
+% TODO: add color to headings
+
+\let\emph\relax % there's no \RedeclareTextFontCommand
+\DeclareTextFontCommand{\emph}{\color{emphcol}\em}
+\DeclareTextFontCommand{\emphcn}{\color{emphcol}}
+
+% Programming languages colors
+\DeclareTextFontCommand{\langa}{\color{lang1}}
+\DeclareTextFontCommand{\langb}{\color{lang2}}
+\DeclareTextFontCommand{\langc}{\color{lang3}}
+\DeclareTextFontCommand{\langd}{\color{lang4}}
+\DeclareTextFontCommand{\lange}{\color{lang5}}
