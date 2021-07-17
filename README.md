@@ -25,12 +25,16 @@ file:
 
 ```shell
 latexmk cv.tex
-latexmk -c
 ```
 
 To compile all of the PDFs:
 
 ```shell
 latexmk
+```
+
+To remove files generated while compiling (excluding the PDFs):
+
+```shell
 latexmk -c
 ```
