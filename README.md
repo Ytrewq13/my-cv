@@ -1,85 +1,36 @@
-Sam Robert Whitehead
-====================
+# My CV
 
-Tel: +447478190577
+This git repository contains my CV.
 
-Emails: sam.everythingcomputers\@gmail.com
-psysrw\@nottingham.ac.uk
+I am Sam Robert Whitehead, a computer Science student studying for a master's
+from the University of Nottingham.
 
-Currently in my third year studying Computer Science at the University
-of Nottingham. Interested in all aspects of software development, with
-particular interest in system administration and writing performant,
-efficient code through various optimisations.
+The CV is a LaTeX project, but the compiled PDFs can be found in the `build/`
+directory.
 
-Education
-=========
+## Compiling
 
-University of Nottingham 2018-09 -- current
----------------------------------------
+To compile my CV successfully, you will need:
 
-Degree: MSci Computer Science First year grade: First\
+- XeLaTeX
+- latexmk
+- noto-fonts-cjk
 
-Second year grade: First
 
--   Experience implementing various algorithms and data structures in C.
+If you do not have noto-fonts-cjk, only compile `cv_en.tex` and you shouldn't
+have a problem (apart from maybe some warnings, but you can ignore those).
 
--   Modules so far include:
+To compile one of the PDFs (for example: `cv.pdf`), run latexmk on its `.tex`
+file:
 
-    -   Object Oriented Programming
+```shell
+latexmk cv.tex
+latexmk -c
+```
 
-    -   Functional Programming (Haskell) - Fundamentals & Advanced
-        Techniques
+To compile all of the PDFs:
 
-    -   Software Engineering Group Project
-
--   Can provide a comprehensive list of modules upon request (including
-    grades)
-
-NEW College Pontefract 2016-09 -- 2018-07
--------------------------------------
-
-### A Levels
-
-Achieved 3 A Levels, with grades A\*AA (can provide details upon
-request).
-
-Kettlethorpe High School 2011-09 -- 2016-07
----------------------------------------
-
-Achieved 10 GCSEs, including 5 A\* grades and 5 A grades (can provide
-details upon request).
-
-Experiences
-===========
-
-Personal Programming Projects
------------------------------
-
--   Mandelbrot generator in C <https://github.com/Ytrewq13/mandelbrotc.git>
-
--   Heapsort in C <https://github.com/Ytrewq13/heapsort.git>
-
--   Rubik's cube timer in Java (A Level Coursework)
-    <https://github.com/Ytrewq13/cubetimerapplicationjavafx.git>
-
--   Maze generator and solver in Java and Javascript <https://github.com/Ytrewq13/mazemaker.git>
-
--   Bouncing ball physics simulation in Javascript
-    <https://github.com/Ytrewq13/javascript-bouncing-balls.git>
-
--   Genetic algorithm example program in Python and Javascript
-    <https://github.com/Ytrewq13/wordevolution.git>
-
-Programming Languages
-=====================
-
-Very comfortable with
----------------------
-
-C, Java, Python, Javascript, Bash, LaTeX
-
-Working familiarity
--------------------
-
-C++, R (ggplot2), PHP, Lua, C\#, Vimscript, Groff (MS macros, EQN, REF),
-AWK, SED, Perl, Haskell, SQL
+```shell
+latexmk
+latexmk -c
+```
