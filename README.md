@@ -5,35 +5,28 @@ This git repository contains my CV.
 I am Sam Robert Whitehead, a computer Science student studying for a master's
 from the University of Nottingham.
 
-The CV is a LaTeX project, but the compiled PDFs can be found in the `build/`
+This branch is the CV I will use to apply for jobs which do not require a CS
+background (i.e. "low skill" jobs). I will be applying for part time jobs with
+this CV.
+
+The CV is a LaTeX project, but the compiled PDF can be found in the `build/`
 directory.
 
 ## Compiling
 
-To compile my CV successfully, you will need:
+To compile this CV successfully, you will need:
 
-- XeLaTeX
-- latexmk
-- noto-fonts-cjk
+- `XeLaTeX`
+- `latexmk`
 
 
-If you do not have noto-fonts-cjk, only compile `cv_en.tex` and you shouldn't
-have a problem (apart from maybe some warnings, but you can ignore those).
-
-To compile one of the PDFs (for example: `cv.pdf`), run latexmk on its `.tex`
-file:
-
-```shell
-latexmk cv.tex
-```
-
-To compile all of the PDFs:
+To compile the PDF, run `latexmk`:
 
 ```shell
 latexmk
 ```
 
-To remove files generated while compiling (excluding the PDFs):
+To remove files generated while compiling (excluding the PDF):
 
 ```shell
 latexmk -c
