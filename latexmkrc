@@ -28,4 +28,4 @@ push @generated_exts, "nls";
 push @generated_exts, "synctex.gz";
 push @generated_exts, "run.xml";
 
-@default_files = ('cv.tex', 'cv_en.tex', 'cv_cn.tex');
+@default_files = ('cv.tex');
